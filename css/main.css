@@ -852,11 +852,9 @@ th {
   width: 100%;
   height: 80px !important;
 }
-
-/* !Cor da NavBar */
 .sticky-wrapper.is-sticky .default-header {
-  /* background: #000000; */
-  /* box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3); */
+  /* background: #263a4e5b;
+  box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.111); */
 }
 .default-header {
   position: absolute;
@@ -868,14 +866,14 @@ th {
 }
 @media (max-width: 991px) {
   .default-header {
-    background: #263a4e;
+    background: #263a4e00;
   }
 }
 .default-header .navbar {
   padding: 22px 16px;
 }
 .default-header .navbar .navbar-toggler {
-  border: 1px solid #fff;
+  border: 0px solid #fff;
   border-color: #fff;
   cursor: pointer;
 }
@@ -979,7 +977,7 @@ th {
 }
 .navbar-nav a:hover,
 .navbar-nav a.active {
-  color: #9f2bda;
+  color: #be6cce;
 }
 @media (max-width: 992px) {
   .navbar-nav {
@@ -998,11 +996,11 @@ th {
   }
 }
 .navbar-nav .dropdown .dropdown-item {
-  color: #6597c9;
+  color: #263a4e;
   text-transform: capitalize;
 }
 .navbar-nav .dropdown .dropdown-item:hover {
-  color: #af39cc;
+  color: #cea06c;
 }
 @media (max-width: 991px) {
   .navbar-nav .dropdown .dropdown-item {
@@ -1040,7 +1038,7 @@ th {
   }
 }
 .home-banner-area .overlay {
-  background: #1d1d1d;
+  background: rgba(5, 10, 52, 0.6);
 }
 .home-banner-area .banner-content {
   margin-top: 25%;
@@ -1059,28 +1057,17 @@ th {
 }
 .home-banner-area .banner-content h1 {
   color: #fff;
-  font-size: 100px;
+  font-size: 38pt;
+  letter-spacing: 7px;
   line-height: 100px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
-
-  width: 408px;
-  height: 145px;
-
-  /* Helvetica */
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 144px;
-  line-height: 166px;
-
-  color: #ffffff;
 }
 
 .home-banner-area .banner-content hr {
-  background: #808080;
-  margin-right: 50%;
+  background: grey;
+
 }
 
 @media (max-width: 991.98px) {
@@ -1100,37 +1087,24 @@ th {
     line-height: 50px;
   }
 }
-
-.icon {
-    display: flex;
-    align-items: center;
-}
-
-.icon a{
-  /* Sobre */
-  width: 37px;
-  height: 13px;
-
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 14px;
-
-  color: #000000;
-
-  margin-left: 15px;
-}
-
 .home-banner-area .banner-content p {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 16pt;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #70d1f2;
+}
+
+.home-banner-area .banner-content a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 9pt;
+  letter-spacing: 3px;
   text-transform: uppercase;
-  color: #fff;
 }
 
 .home-banner-area .banner-content .primary-btn {
-  border: 1px solid rgba(255, 255, 255, 0);
+  border: 1px solid #fff;
   color: #fff;
   margin-top: 20px;
 }
